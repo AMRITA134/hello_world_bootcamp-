@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+    int value;
+    char player;
+    printf("enter 1 for the rules for the game and 2 for the game to start.");
+    scanf("%d",&value);
+    if(value==1)
+    {
+        printf("rules of the game are as follows:\n1.r for rock /stone ,p for paper and s for scissor.\n2.when rock and paper are shown,paper wins.\n3.when scissor and paper are shown,scissor wins.\n4.when same choices are shown ,its a draw\n");
+
+    }
+    while(2)
+    {
+       printf("player please enter your choice,(rock,papper,scissor)");
+       scanf("%c",&player);
+       
+    }
+}
